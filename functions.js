@@ -129,7 +129,7 @@ function getInfo(info, column, source) {
                 if (typeof source[i][0] == "string") {
   
                     for (let n = 0; n < source[i][1]; n++) {
-                        let comm = source[i][0].split(" ")
+                        let comm = source[i][0].split("%")
                         let children = FindItem(comm[0])
     
                         let answer = Object.keys(children)[0]
@@ -172,7 +172,7 @@ function getInfo(info, column, source) {
                 
                 if (typeof source[i][0] == "string") {
 
-                    let comm = source[i][0].split(" ")
+                    let comm = source[i][0].split("%")
                     let children = FindItem(comm[0])
                     
                     let answer = Object.keys(children)[0]

@@ -21,8 +21,8 @@
         "Diarreia":70,
         "Poliúria":65,
         "Alterações sexuais": [{
-            "Oligomenorreia, perda da libido":["Sexo - F", 1],
-            "Perda da libido":["Sexo - M", 1],
+            "Oligomenorreia, perda da libido":["Sexo%-%F", 1],
+            "Perda da libido":["Sexo%-%M", 1],
             "t":"u"
         }, 60],
         "t":"m"
@@ -40,8 +40,8 @@
     },
     "Exame Físico": {
         "Ausculta cardíaca":[{
-            "Taquicardia":90,
-            "fibrilação atrial":["Idade > 65", 70],
+            "Taquicardia":["Frequência cardíaca%>%100", 70],
+            "fibrilação atrial":["Idade%>%65", 70],
             "t":"m"
         }, 80],
         "Tremor":85,
